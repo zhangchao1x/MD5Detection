@@ -50,7 +50,7 @@ unsigned int hexToDec(char *temp)
     unsigned int sum = 0;
     unsigned int  t = 1;
     int i;
-    // Ğ¡¶Ë·¨16½øÖÆ
+    // å°ç«¯æ³•16è¿›åˆ¶
     for(i=7; i>=0; i--)
     {
         sum += t * getIndexOfSigns(*(temp + i));
@@ -217,9 +217,8 @@ int bitValue(unsigned int value,int n){
 int main()
 {
 unsigned char str[128] = "02dd31d1c4eee6c5069a3d695cf9af9887b5ca2fab7e46123e580440897ffbb80634ad5502b3f4098388e4835a417125e82551089fc9cdf7f2bd1dd95b3c3780";
-//unsigned char str[128] = "d131dd02c5e6eec4693d9a0698aff95c2fcab587124673ab4004583eb8fb7f8955ad340609f4b30283e488832571415a085125e8f7cdc99fd91dbdf280373c5b";
 unsigned char str1[128] = "02dd31d1c4eee6c5069a3d695cf9af9807b5ca2fab7e46123e580440897ffbb80634ad5502b3f4098388e4835a41f125e82551089fc9cdf772bd1dd95b3c3780";
-printf("Ò»¶Ô½üËÆÅö×²¿éµÄ×î¸ßÎª²î·ÖÇé¿ö:\n");
+printf("ä¸€å¯¹è¿‘ä¼¼ç¢°æ’å—çš„æœ€é«˜ä¸ºå·®åˆ†æƒ…å†µ:\n");
 printf("M:\n");
 CalcuStatus(str);
 printf("\n");
